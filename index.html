@@ -9,14 +9,15 @@
 
 <body>
     <script>
-        const fruits = ["Apple", "Orange", "Grape"]
-        fruits[1]="Strawberry"
-        let a =fruits[1]
 
-        console.log(fruits[0]);
-        console.log(a);
-        
-        
+        let add = (a) => {
+            console.log("Hai");
+            let b = a()
+            console.log(b);            
+        }
+
+        add(() => 12)
+
     </script>
 </body>
 
